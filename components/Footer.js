@@ -43,8 +43,8 @@ const Footer = () => {
                     <div className="col-xs-12 col-lg-8 mb-mob-3 text-center-mob">
                         <Nombre>Sandra Guelman Giser</Nombre>
                         <ItemPuesto>Kinesióloga</ItemPuesto>
-                        <ItemPuesto>Stretching Global Activo</ItemPuesto>
                         <ItemPuesto>R.P.G. - Reeducación Postural Global</ItemPuesto>
+                        <ItemPuesto>S.G.A. - Stretching Global Activo</ItemPuesto>
                         <ItemPuesto>Universidad de Buenos Aires</ItemPuesto>
                     </div>
                     <div className="col-xs-12 col-lg-4">

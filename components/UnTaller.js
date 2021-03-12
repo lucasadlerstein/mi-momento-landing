@@ -39,15 +39,12 @@ const Descripcion = styled.p`
     font-family: 'GlacialIndifference';
 `;
 
-const UnTaller = () => {
+const UnTaller = ({titulo, imagen, descripcion}) => {
     return (
         <Taller>
             <Imagen src="img/fondo-banner.jpg" alt="Esto es un taller" />
-            <Titulo>Libera tu cuello<br /> y espalda alta</Titulo>
-            <Descripcion>
-                ¿Sentís que no podes hacer nada más cuando estás dolorida?
-                ¿Sentís que no podes hacer nada más cuando estás dolorida?
-            </Descripcion>
+            <Titulo>{titulo}</Titulo>
+            <Descripcion>{descripcion}</Descripcion>
             <a href="#" className="btn btn-rosa text-black font-glacial">MÁS INFO</a>
         </Taller>
     );

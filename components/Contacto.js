@@ -25,28 +25,20 @@ const Contacto = () => {
             <h2 className="font-weight-bold">¡Hablemos!</h2>
             <Sub>Contactame como te sea más comodo.</Sub>
             <div className="row mt-5">
-                <div className="col-xs-12 col-md-4">
-                    <a href="#" target="_blank">
+                <div className="col-xs-12 col-md-6">
+                    <a href="https://wa.me/5491161409865" target="_blank">
                         <ImagenBoton src="img/whatsapp.png" alt="Contactame por WhatsApp" />
                     </a>
                     <a>
-                        <BotonTexto>WhatsApp<br/>+54 9 11 2222 2222</BotonTexto>
+                        <BotonTexto>WhatsApp<br/>+54 9 11 6140 9865</BotonTexto>
                     </a>
                 </div>
-                <div className="col-xs-12 col-md-4">
-                    <a href="#" target="_blank">
+                <div className="col-xs-12 col-md-6">
+                    <a href="mailto:sandragiser@gmail.com" target="_blank">
                         <ImagenBoton src="img/email.png" alt="Contactame por Email" />
                     </a>
                     <a>
-                        <BotonTexto>Email<br/>sandra@movimientosindolor.com</BotonTexto>
-                    </a>
-                </div>
-                <div className="col-xs-12 col-md-4">
-                    <a href="#" target="_blank">
-                        <ImagenBoton src="img/telefono.png" alt="Contactame por Telefono" />
-                    </a>
-                    <a>
-                        <BotonTexto>Teléfono<br/>+54 9 11 2222 2222</BotonTexto>
+                        <BotonTexto>Email<br/>sandragiser@gmail.com</BotonTexto>
                     </a>
                 </div>
             </div>

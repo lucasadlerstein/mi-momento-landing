@@ -34,7 +34,7 @@ const Mom = () => {
                         <div className="col-xs-12 col-lg-4 mb-mob-3">
                             <Imagen src="img/fondo-banner.jpg" alt="" />
                             <Texto>
-                                Sesiones y consultas<br/>Individuales<br/>Online o presencial
+                                Sesiones y consultas<br/>Individuales<br/>Online<br/>o presencial
                             </Texto>
                         </div>  
                         <div className="col-xs-12 col-lg-4 mb-mob-3" >
