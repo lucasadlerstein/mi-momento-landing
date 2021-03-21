@@ -32,19 +32,19 @@ const Mom = () => {
                 <div className="container">
                     <div className="row text-center">
                         <div className="col-xs-12 col-lg-4 mb-mob-3">
-                            <Imagen src="img/fondo-banner.jpg" alt="" />
+                            <Imagen src="img/sesiones-individuales-online.jpg" alt="Sesiones y consultas individuales online o presencial" />
                             <Texto>
                                 Sesiones y consultas<br/>Individuales<br/>Online<br/>o presencial
                             </Texto>
                         </div>  
                         <div className="col-xs-12 col-lg-4 mb-mob-3" >
-                            <Imagen src="img/fondo-banner.jpg" alt="" />
+                            <Imagen src="img/sesiones-grupales-presenciales.jpg" alt="Talleres grupales online o presencial" />
                             <Texto>
                                 Talleres grupales<br/>Online<br/>O presencial
                             </Texto>
                         </div>  
                         <div className="col-xs-12 col-lg-4 mb-mob-3">
-                            <Imagen src="img/fondo-banner.jpg" alt="" />
+                            <Imagen src="img/charlas-online-gratuitas.jpg" alt="Charlas online gratutias para mujeres!" />
                             <Texto>
                                 Charlas online<br/>Gratuitas<br/>Para mujeres
                             </Texto>

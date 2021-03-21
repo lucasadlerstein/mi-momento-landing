@@ -42,7 +42,7 @@ const Descripcion = styled.p`
 const UnTaller = ({titulo, imagen, descripcion}) => {
     return (
         <Taller>
-            <Imagen src="img/fondo-banner.jpg" alt="Esto es un taller" />
+            <Imagen src={imagen} alt={titulo} />
             <Titulo>{titulo}</Titulo>
             <Descripcion>{descripcion}</Descripcion>
             <a href="#" className="btn btn-rosa text-black font-glacial">MÁS INFO</a>
