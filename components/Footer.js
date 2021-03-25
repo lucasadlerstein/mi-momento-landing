@@ -49,16 +49,16 @@ const Footer = () => {
                     </div>
                     <div className="col-xs-12 col-lg-4">
                         <Logos>
-                            <Logo href="#" target="_blank">
+                            {/* <Logo href="#" target="_blank">
                                 <img src="img/logo-facebook.png" alt="Facebook Movimiento Sin Dolor"/>
-                            </Logo>
-                            <Logo href="#" target="_blank">
+                            </Logo> */}
+                            <Logo href="https://www.instagram.com/mimomento.ok" target="_blank">
                                 <img src="img/logo-instagram.png" alt="Instagram Movimiento Sin Dolor"/>
                             </Logo>
-                            <Logo href="#" target="_blank">
+                            <Logo href="https://wa.me/5491161409865" target="_blank">
                                 <img src="img/logo-whatsapp.png" alt="WhatsApp Movimiento Sin Dolor"/>
                             </Logo>
-                            <Logo href="#" target="_blank">
+                            <Logo href="mailto:sandragiser@gmail.com" target="_blank">
                                 <img src="img/logo-email.png" alt="Email Movimiento Sin Dolor"/>
                             </Logo>
                         </Logos>

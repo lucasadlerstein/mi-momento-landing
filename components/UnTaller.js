@@ -45,7 +45,7 @@ const UnTaller = ({titulo, imagen, descripcion}) => {
             <Imagen src={imagen} alt={titulo} />
             <Titulo>{titulo}</Titulo>
             <Descripcion>{descripcion}</Descripcion>
-            <a href="#" className="btn btn-rosa text-black font-glacial">MÁS INFO</a>
+            <a href="https://wa.me/5491161409865" className="btn btn-rosa text-black font-glacial">MÁS INFO</a>
         </Taller>
     );
 }
