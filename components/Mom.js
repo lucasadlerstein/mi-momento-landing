@@ -46,7 +46,7 @@ const Mom = () => {
                         <div className="col-xs-12 col-lg-4 mb-mob-3">
                             <Imagen src="img/charlas-online-gratuitas.jpg" alt="Charlas online gratutias para mujeres!" />
                             <Texto>
-                                Charlas online<br/>Gratuitas<br/>Para mujeres
+                                Charlas online<br/>Para mujeres
                             </Texto>
                         </div>  
                     </div>

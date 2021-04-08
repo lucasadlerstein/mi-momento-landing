@@ -26,7 +26,7 @@ const Navegacion = () => {
             <div className="container">
                 <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{padding: '1.5rem 0'}}>
                     <a className="navbar-brand" href="/">
-                        <Imagen src="img/fondo-banner.jpg" alt="Logo Mi Momento" />
+                        <Imagen src="img/logo.png" alt="Logo Mi Momento" />
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
