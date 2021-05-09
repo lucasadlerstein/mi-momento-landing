@@ -12,6 +12,15 @@ const Texto = styled.p`
     }
 `;
 
+const VideoDiv = styled.div`
+    width: 350px;
+    height: 410px;
+    overflow: hidden;
+    &:focus {
+        outline: none;
+    }
+`;
+
 const Video = () => {
     return (
         <div className="py-10r">
@@ -27,7 +36,12 @@ const Video = () => {
                         <a href="https://wa.me/5491161409865" className="btn btn-rosa text-white mt-4 mb-mob-3 ">más información</a>
                     </div>
                     <div className="col-xs-12 col-md-5">
-                        <img style={{borderRadius: '1rem'}} src="img/juntas.jpg" alt="Transitemos esto juntas - Lic. Sandra Giser"/>
+                        {/* <img style={{borderRadius: '1rem'}} src="img/juntas.jpg" alt="Transitemos esto juntas - Lic. Sandra Giser"/> */}
+                        <video style={{width: 'auto', height: '410px', maxWidth: '30rem'}} controls>
+                            <source src="/img/soy-sandra-giser.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+
                         {/* <iframe width="100%" style={{height: '100%'}} src="https://www.youtube.com/embed/LCqkbEFx-RM" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
                     </div>
                 </div>
