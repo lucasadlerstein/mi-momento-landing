@@ -6,10 +6,12 @@ const Fondo = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     height: 75vh;
     
     position: relative;
+    @media (min-width: 768px){
+        background-attachment: fixed;
+    }
 `;
 
 const Texto = styled.h1`
