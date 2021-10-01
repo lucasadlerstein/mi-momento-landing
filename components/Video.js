@@ -35,15 +35,14 @@ const Video = () => {
                         </Texto>
                         <a href="https://wa.me/5491161409865" className="btn btn-rosa text-white mt-4 mb-mob-3">más información</a>
                     </div>
-                    <div className="col-xs-12 col-md-5 text-center">
-                        {/* <img style={{borderRadius: '1rem'}} src="img/juntas.jpg" alt="Transitemos esto juntas - Lic. Sandra Giser"/> */}
-                        <video style={{width: 'auto', height: '410px', maxWidth: '30rem'}} className="border border-dark" controls>
+                    {/* <div className="col-xs-12 col-md-5 text-center"> */}
+                        {/* <video style={{width: 'auto', height: '410px', maxWidth: '30rem'}} className="border border-dark" controls>
                             <source src="/img/soy-sandra-giser.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
-                        </video>
+                        </video> */}
 
                         {/* <iframe width="100%" style={{height: '100%'}} src="https://www.youtube.com/embed/LCqkbEFx-RM" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
-                    </div>
+                    {/* </div> */}
                 </div>
             </div>
         </div>

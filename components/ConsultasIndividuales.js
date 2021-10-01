@@ -19,7 +19,7 @@ const ConsultasIndividuales = () => {
                 <Texto>
                     Desde la comodidad y seguridad de tu casa.<br/>
                     No esperes a que tus dolores aumenten,<br/>
-                    a que tus articulaciones se deterioren o que tus postura empeore.
+                    a que tus articulaciones se deterioren o que tu postura empeore.
                 </Texto>
                 <a href="https://wa.me/5491161409865" className="btn btn-rosa font-glacial">Consultar por WhatsApp</a>
             </div>
